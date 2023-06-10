@@ -54,7 +54,7 @@ class Course extends Model
 
     public function courseTags()
     {
-        return $this->hasMany(courseTag::class, 'course_id');
+        return $this->hasMany(CourseTag::class, 'course_id');
     }
 
     public function tagIds()
