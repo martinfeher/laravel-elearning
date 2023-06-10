@@ -140,8 +140,7 @@ class CourseFilterController extends Controller
 
         $courseCount = Course::count();
 
-        if ($request->has('server_side_update') && $request->server_side_update == 1) {
-
+        if ($request->has('all_data') && $request->all_data != 1) {
 
             if ($request->has('data_page_count')) {
                 $dataCount = $request->data_page_count;

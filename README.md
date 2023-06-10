@@ -1,3 +1,7 @@
+## Laravel elearning
+This application displays a course listing page with filter, search and order functions.
+There are three types of data processing; client-side processing, server-side processing and optimized processing.
+
 ### Prerequisites
 PHP >= 8.2
 
@@ -15,7 +19,7 @@ cd laravel-elearning
 
 2. Install the dependencies:
 
-    ```shell
+    ```shell 
     composer install
     ```
 
