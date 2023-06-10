@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
             CourseAttributeItemSeeder::class,
             CourseCategorySeeder::class,
             CourseTagSeeder::class,
+            PlanSeeder::class,
         ]);
-
     }
 }
